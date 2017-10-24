@@ -16,8 +16,8 @@
           <!-- Title and subtitles! -->
           <h3>Welcome to</h3>
           <img src="images/wimpy_web_logo1.png">
-          <h1>-THE GUESSING GAME-</h1>
-          <h2>How many burgers did Wimpy not pay?</h2>
+          <h1 id="title">-THE GUESSING GAME-</h1>
+          <h2 id="subtitle">How many burgers did Wimpy not pay?</h2>
         </div>
           
           <div id='main' class="center">
@@ -35,14 +35,13 @@
                 <li>-</li>
                 <li>-</li>
                 <li>-</li>
-                <li>-</li>
               </ul>
             </div>
   
             <div id="menu-btns">
               <!-- reset and hint buttons -->
-              <button class="btn">Reset</button>
-              <button class="btn">Hint</button>
+              <button id="reset" class="btn">Reset</button>
+              <button id="hint" class="btn">Hint</button>
             </div>
           </div>
   
@@ -70,6 +69,13 @@
   
         </div>
     </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="GuessingGame-Part2/GuessingGame.js"></script>
 
   </body>
 </html>
